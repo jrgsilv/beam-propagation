@@ -2,11 +2,11 @@
 
 Example code used to simulate beam propagation in a system with real optical components (lenses, mirrors, etc.). 
 
-The example presented here propagates the simulated near-field emission output of a terahertz quantum cascade laser (QCL) through two optical lenses, which first collimate and then focus the beam into the imaging plane. Further simulation regarding reflection from the the imaging plane and backward propagation through both optical lenses onto the QCL is also shown. Simulation is presented for the following planes: the QCL emission plane, collimating lens L1, focusing lens L2, imaging plane, backwards propagationg to L2, then to L1, and final reinjection at the QCL's emission plane.  
+The example presented here propagates the simulated near-field emission output of a terahertz quantum cascade laser (QCL) through two optical lenses, which first collimate and then focus the beam into the imaging plane. Further simulation regarding reflection from the imaging plane and backward propagation through both optical lenses onto the QCL is also shown. Simulation is presented for the following planes: the QCL emission plane, collimating lens L1, focusing lens L2, imaging plane, backward propagation to L2, then to L1, and final reinjection at the QCL's emission plane.  
 
 
 ## Installation
-You will need one two custom modules included 'QCL_methods.py' and 'import_module_from_anywhere.ipynb'. The input QCL near-field profile data is imported from 'QCL_laser_output.mat'. In case there are some nested dependencies, please pip install those. I hope I did not forget nested dependencies of my own. If there is a module name that you can't find online that is required, please let me know and I will fix it.
+You will need two custom modules 'QCL_methods.py' and 'import_module_from_anywhere.ipynb'. The input QCL near-field profile data is imported from 'QCL_laser_output.mat'. In case there are some nested dependencies, please pip install those. I hope I did not forget nested dependencies of my own. If there is a module name that you can't find online that is required, please let me know and I will fix it.
 
 ## Support
 In case of any encountered issues (very likely at this stage), let me know via issue tracker or at my email: m.ploschner@uq.edu.au
